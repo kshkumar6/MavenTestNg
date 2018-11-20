@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140940" started-at="2018-11-19T19:07:05Z" finished-at="2018-11-19T19:09:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="140940" started-at="2018-11-19T19:07:05Z" finished-at="2018-11-19T19:09:26Z">
+      <class name="com.qa.tests.TC_ValidateBackButton">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="launchbrowser" duration-ms="6994" started-at="2018-11-20T00:37:05Z" finished-at="2018-11-20T00:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="NavigateToURL" duration-ms="8810" started-at="2018-11-20T00:37:12Z" finished-at="2018-11-20T00:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="AEnterUserDetails()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="AEnterUserDetails" duration-ms="6134" started-at="2018-11-20T00:37:21Z" finished-at="2018-11-20T00:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AEnterUserDetails -->
+        <test-method status="PASS" signature="BvalidateUserDetails()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="BvalidateUserDetails" duration-ms="993" started-at="2018-11-20T00:37:27Z" finished-at="2018-11-20T00:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BvalidateUserDetails -->
+        <test-method status="PASS" signature="ClickBackAndValidate()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="ClickBackAndValidate" duration-ms="654" started-at="2018-11-20T00:37:28Z" finished-at="2018-11-20T00:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBackAndValidate -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ValidateBackButton@3c0ecd4b]" name="closeDriver" duration-ms="7" started-at="2018-11-20T00:37:29Z" finished-at="2018-11-20T00:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ValidateBackButton -->
+      <class name="com.qa.tests.TC_ValidateErrorMessages_Payment">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e]" name="launchbrowser" duration-ms="5167" started-at="2018-11-20T00:38:12Z" finished-at="2018-11-20T00:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e]" name="NavigateToURL" duration-ms="8465" started-at="2018-11-20T00:38:17Z" finished-at="2018-11-20T00:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="EnterUserDetails()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e]" name="EnterUserDetails" duration-ms="6148" started-at="2018-11-20T00:38:26Z" finished-at="2018-11-20T00:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserDetails -->
+        <test-method status="PASS" signature="ValidatePaymentErrorMessages()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e]" name="ValidatePaymentErrorMessages" duration-ms="2148" started-at="2018-11-20T00:38:32Z" finished-at="2018-11-20T00:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePaymentErrorMessages -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e]" name="closeDriver" duration-ms="13" started-at="2018-11-20T00:38:34Z" finished-at="2018-11-20T00:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ValidateErrorMessages_Payment -->
+      <class name="com.qa.tests.TC_ValidateErrorMessages_BookinDetails">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519]" name="launchbrowser" duration-ms="5433" started-at="2018-11-20T00:37:54Z" finished-at="2018-11-20T00:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519]" name="NavigateToURL" duration-ms="8485" started-at="2018-11-20T00:37:59Z" finished-at="2018-11-20T00:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="ValidateErrorMessages()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519]" name="ValidateErrorMessages" duration-ms="4526" started-at="2018-11-20T00:38:08Z" finished-at="2018-11-20T00:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateErrorMessages -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519]" name="closeDriver" duration-ms="7" started-at="2018-11-20T00:38:12Z" finished-at="2018-11-20T00:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ValidateErrorMessages_BookinDetails -->
+      <class name="com.qa.tests.TC_ConfirmAndValidateBooking">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="launchbrowser" duration-ms="5385" started-at="2018-11-20T00:38:59Z" finished-at="2018-11-20T00:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="NavigateToURL" duration-ms="8487" started-at="2018-11-20T00:39:05Z" finished-at="2018-11-20T00:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="EnterUserDetails()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="EnterUserDetails" duration-ms="6180" started-at="2018-11-20T00:39:13Z" finished-at="2018-11-20T00:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserDetails -->
+        <test-method status="PASS" signature="EnterPaymentDetails()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="EnterPaymentDetails" duration-ms="2119" started-at="2018-11-20T00:39:19Z" finished-at="2018-11-20T00:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPaymentDetails -->
+        <test-method status="PASS" signature="confirmBooking()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="confirmBooking" duration-ms="4851" started-at="2018-11-20T00:39:22Z" finished-at="2018-11-20T00:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmBooking -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace]" name="closeDriver" duration-ms="12" started-at="2018-11-20T00:39:26Z" finished-at="2018-11-20T00:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ConfirmAndValidateBooking -->
+      <class name="com.qa.tests.TC_ValidatePromoCode">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ValidatePromoCode@e45f292]" name="launchbrowser" duration-ms="5479" started-at="2018-11-20T00:38:34Z" finished-at="2018-11-20T00:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ValidatePromoCode@e45f292]" name="NavigateToURL" duration-ms="8545" started-at="2018-11-20T00:38:40Z" finished-at="2018-11-20T00:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="AEnterUserDetails()[pri:0, instance:com.qa.tests.TC_ValidatePromoCode@e45f292]" name="AEnterUserDetails" duration-ms="6785" started-at="2018-11-20T00:38:48Z" finished-at="2018-11-20T00:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AEnterUserDetails -->
+        <test-method status="PASS" signature="ValidatePromoCode()[pri:0, instance:com.qa.tests.TC_ValidatePromoCode@e45f292]" name="ValidatePromoCode" duration-ms="4493" started-at="2018-11-20T00:38:55Z" finished-at="2018-11-20T00:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePromoCode -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ValidatePromoCode@e45f292]" name="closeDriver" duration-ms="9" started-at="2018-11-20T00:38:59Z" finished-at="2018-11-20T00:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ValidatePromoCode -->
+      <class name="com.qa.tests.TC_ValidateModify">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="launchbrowser" duration-ms="5588" started-at="2018-11-20T00:37:29Z" finished-at="2018-11-20T00:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="NavigateToURL()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="NavigateToURL" duration-ms="8661" started-at="2018-11-20T00:37:35Z" finished-at="2018-11-20T00:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToURL -->
+        <test-method status="PASS" signature="EnterUserDetails()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="EnterUserDetails" duration-ms="6471" started-at="2018-11-20T00:37:43Z" finished-at="2018-11-20T00:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUserDetails -->
+        <test-method status="PASS" signature="validateUserDetails()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="validateUserDetails" duration-ms="965" started-at="2018-11-20T00:37:50Z" finished-at="2018-11-20T00:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserDetails -->
+        <test-method status="PASS" signature="ModifyDetailsAndValidate()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="ModifyDetailsAndValidate" duration-ms="2868" started-at="2018-11-20T00:37:51Z" finished-at="2018-11-20T00:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyDetailsAndValidate -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.qa.tests.TC_ValidateModify@5f2108b5]" name="closeDriver" duration-ms="19" started-at="2018-11-20T00:37:54Z" finished-at="2018-11-20T00:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.qa.tests.TC_ValidateModify -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

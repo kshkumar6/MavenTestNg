@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">32</td><td class="numi">32</td><td class="numi">0</td><td class="numi">0</td><td class="numi">140.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">com.qa.tests.TC_ValidateBackButton<td><a href="#m1"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654425988</td><td class="numi">6994</td></tr><tr class="passedodd"><td><a href="#m2"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654432983</td><td class="numi">8810</td></tr><tr class="passedodd"><td><a href="#m3"><b>AEnterUserDetails</b>  </a></td><td class="numi">1</td><td>1542654441794</td><td class="numi">6134</td></tr><tr class="passedodd"><td><a href="#m4"><b>BvalidateUserDetails</b>  </a></td><td class="numi">1</td><td>1542654447929</td><td class="numi">993</td></tr><tr class="passedodd"><td><a href="#m5"><b>ClickBackAndValidate</b>  </a></td><td class="numi">1</td><td>1542654448923</td><td class="numi">654</td></tr><tr class="passedodd"><td><a href="#m6"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654449578</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="6">com.qa.tests.TC_ValidateModify<td><a href="#m7"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654449587</td><td class="numi">5588</td></tr><tr class="passedeven"><td><a href="#m8"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654455176</td><td class="numi">8661</td></tr><tr class="passedeven"><td><a href="#m9"><b>EnterUserDetails</b>  </a></td><td class="numi">1</td><td>1542654463838</td><td class="numi">6471</td></tr><tr class="passedeven"><td><a href="#m10"><b>validateUserDetails</b>  </a></td><td class="numi">1</td><td>1542654470310</td><td class="numi">965</td></tr><tr class="passedeven"><td><a href="#m11"><b>ModifyDetailsAndValidate</b>  </a></td><td class="numi">1</td><td>1542654471276</td><td class="numi">2868</td></tr><tr class="passedeven"><td><a href="#m12"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654474144</td><td class="numi">19</td></tr>
+<tr class="passedodd"><td rowspan="4">com.qa.tests.TC_ValidateErrorMessages_BookinDetails<td><a href="#m13"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654474164</td><td class="numi">5433</td></tr><tr class="passedodd"><td><a href="#m14"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654479597</td><td class="numi">8485</td></tr><tr class="passedodd"><td><a href="#m15"><b>ValidateErrorMessages</b>  </a></td><td class="numi">1</td><td>1542654488083</td><td class="numi">4526</td></tr><tr class="passedodd"><td><a href="#m16"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654492610</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="5">com.qa.tests.TC_ValidateErrorMessages_Payment<td><a href="#m17"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654492618</td><td class="numi">5167</td></tr><tr class="passedeven"><td><a href="#m18"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654497786</td><td class="numi">8465</td></tr><tr class="passedeven"><td><a href="#m19"><b>EnterUserDetails</b>  </a></td><td class="numi">1</td><td>1542654506252</td><td class="numi">6148</td></tr><tr class="passedeven"><td><a href="#m20"><b>ValidatePaymentErrorMessages</b>  </a></td><td class="numi">1</td><td>1542654512400</td><td class="numi">2148</td></tr><tr class="passedeven"><td><a href="#m21"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654514548</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="5">com.qa.tests.TC_ValidatePromoCode<td><a href="#m22"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654514563</td><td class="numi">5479</td></tr><tr class="passedodd"><td><a href="#m23"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654520043</td><td class="numi">8545</td></tr><tr class="passedodd"><td><a href="#m24"><b>AEnterUserDetails</b>  </a></td><td class="numi">1</td><td>1542654528588</td><td class="numi">6785</td></tr><tr class="passedodd"><td><a href="#m25"><b>ValidatePromoCode</b>  </a></td><td class="numi">1</td><td>1542654535373</td><td class="numi">4493</td></tr><tr class="passedodd"><td><a href="#m26"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654539867</td><td class="numi">9</td></tr>
+<tr class="passedeven"><td rowspan="6">com.qa.tests.TC_ConfirmAndValidateBooking<td><a href="#m27"><b>launchbrowser</b>  </a></td><td class="numi">1</td><td>1542654539877</td><td class="numi">5385</td></tr><tr class="passedeven"><td><a href="#m28"><b>NavigateToURL</b>  </a></td><td class="numi">1</td><td>1542654545263</td><td class="numi">8487</td></tr><tr class="passedeven"><td><a href="#m29"><b>EnterUserDetails</b>  </a></td><td class="numi">1</td><td>1542654553750</td><td class="numi">6180</td></tr><tr class="passedeven"><td><a href="#m30"><b>EnterPaymentDetails</b>  </a></td><td class="numi">1</td><td>1542654559931</td><td class="numi">2119</td></tr><tr class="passedeven"><td><a href="#m31"><b>confirmBooking</b>  </a></td><td class="numi">1</td><td>1542654562051</td><td class="numi">4851</td></tr><tr class="passedeven"><td><a href="#m32"><b>closeDriver</b>  </a></td><td class="numi">1</td><td>1542654566903</td><td class="numi">12</td></tr>
+</table>
+<h1>Test</h1>
+<a id="m1"></a><h2>com.qa.tests.TC_ValidateErrorMessages_BookinDetails:ValidateErrorMessages</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.qa.tests.TC_ValidateBackButton:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.qa.tests.TC_ValidateErrorMessages_Payment:ValidatePaymentErrorMessages</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.qa.tests.TC_ValidateModify:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.qa.tests.TC_ValidateModify:validateUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.qa.tests.TC_ValidateModify:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.qa.tests.TC_ValidatePromoCode:ValidatePromoCode</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.qa.tests.TC_ValidateModify:EnterUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.qa.tests.TC_ValidateBackButton:ClickBackAndValidate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.qa.tests.TC_ValidateModify:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.qa.tests.TC_ValidatePromoCode:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.qa.tests.TC_ValidateErrorMessages_BookinDetails:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.qa.tests.TC_ValidatePromoCode:AEnterUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>com.qa.tests.TC_ValidateBackButton:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>com.qa.tests.TC_ValidateErrorMessages_BookinDetails:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:confirmBooking</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>com.qa.tests.TC_ValidateErrorMessages_BookinDetails:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>com.qa.tests.TC_ValidateErrorMessages_Payment:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>com.qa.tests.TC_ValidateBackButton:AEnterUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:EnterPaymentDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>com.qa.tests.TC_ValidateBackButton:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>com.qa.tests.TC_ValidateBackButton:BvalidateUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>com.qa.tests.TC_ValidatePromoCode:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:NavigateToURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>com.qa.tests.TC_ConfirmAndValidateBooking:EnterUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>com.qa.tests.TC_ValidateErrorMessages_Payment:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>com.qa.tests.TC_ValidateErrorMessages_Payment:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>com.qa.tests.TC_ValidateErrorMessages_Payment:EnterUserDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>com.qa.tests.TC_ValidateModify:ModifyDetailsAndValidate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>com.qa.tests.TC_ValidatePromoCode:launchbrowser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 20 00:37:05 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>140 seconds (140940 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.AEnterUserDetails()'><b>AEnterUserDetails</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidatePromoCode.AEnterUserDetails()'><b>AEnterUserDetails</b><br>Test class: com.qa.tests.TC_ValidatePromoCode</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ValidatePromoCode@e45f292</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.BvalidateUserDetails()'><b>BvalidateUserDetails</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.ClickBackAndValidate()'><b>ClickBackAndValidate</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.EnterPaymentDetails()'><b>EnterPaymentDetails</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.EnterUserDetails()'><b>EnterUserDetails</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_Payment.EnterUserDetails()'><b>EnterUserDetails</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_Payment</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.EnterUserDetails()'><b>EnterUserDetails</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.ModifyDetailsAndValidate()'><b>ModifyDetailsAndValidate</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_BookinDetails.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_BookinDetails</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_Payment.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_Payment</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidatePromoCode.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ValidatePromoCode</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ValidatePromoCode@e45f292</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.NavigateToURL()'><b>NavigateToURL</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_BookinDetails.ValidateErrorMessages()'><b>ValidateErrorMessages</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_BookinDetails</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_Payment.ValidatePaymentErrorMessages()'><b>ValidatePaymentErrorMessages</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_Payment</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidatePromoCode.ValidatePromoCode()'><b>ValidatePromoCode</b><br>Test class: com.qa.tests.TC_ValidatePromoCode</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.TC_ValidatePromoCode@e45f292</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_BookinDetails.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_BookinDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_Payment.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_Payment</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidatePromoCode.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ValidatePromoCode</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidatePromoCode@e45f292</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.closeDriver()'><b>closeDriver</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.confirmBooking()'><b>confirmBooking</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateBackButton.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ValidateBackButton</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.TC_ValidateBackButton@3c0ecd4b</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_BookinDetails.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_BookinDetails</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_BookinDetails@5bcab519</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateErrorMessages_Payment.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ValidateErrorMessages_Payment</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_ValidateErrorMessages_Payment@31a5c39e</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidatePromoCode.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ValidatePromoCode</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_ValidatePromoCode@e45f292</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ConfirmAndValidateBooking.launchbrowser()'><b>launchbrowser</b><br>Test class: com.qa.tests.TC_ConfirmAndValidateBooking</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_ConfirmAndValidateBooking@3f49dace</td></tr>
+<tr>
+<td title='com.qa.tests.TC_ValidateModify.validateUserDetails()'><b>validateUserDetails</b><br>Test class: com.qa.tests.TC_ValidateModify</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_ValidateModify@5f2108b5</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="false">
+  <test thread-count="1" name="Test" parallel="false">
+    <classes>
+    	      
+      	<class name="com.qa.tests.TC_ValidateBackButton"/>
+      	<class name="com.qa.tests.TC_ValidateModify"/>
+      	<class name="com.qa.tests.TC_ValidateErrorMessages_BookinDetails"/>
+      	<class name="com.qa.tests.TC_ValidateErrorMessages_Payment"/>
+      	<class name="com.qa.tests.TC_ValidatePromoCode"/>
+      	<class name="com.qa.tests.TC_ConfirmAndValidateBooking"/>
+    </classes>
+  </test>   <!-- Test -->
+</suite> <!-- Suite -->
